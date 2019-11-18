@@ -1,0 +1,41 @@
+{
+  "name": "@gospime/express-session-mongo",
+  "version": "1.0.0",
+  "description": "Store session in mongodb for Express app",
+  "keywords": [
+    "gospime",
+    "express",
+    "session",
+    "mongo",
+    "mongodb"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && npm audit fix",
+    "up": "npm update",
+    "check": "npm outdated",
+    "upgrade": "npm run up && npm run check && npm run build",
+    "push-version": "standard-version",
+    "ls-g": "npm list -g --depth=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gospime/express-session-mongo.git"
+  },
+  "author": "Oleg Kravchuk <oleg.kravchuk@gospime.com> (https://gospime.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gospime/express-session-mongo/issues"
+  },
+  "homepage": "https://github.com/gospime/express-session-mongo#readme",
+  "devDependencies": {
+    "standard-version": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "connect-mongo": "^3.1.2",
+    "express-session": "^1.17.0"
+  }
+}
