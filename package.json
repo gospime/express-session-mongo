@@ -29,13 +29,16 @@
   },
   "homepage": "https://github.com/gospime/express-session-mongo#readme",
   "devDependencies": {
-    "standard-version": "^7.0.0"
+    "standard-version": "^7.1.0"
   },
   "engines": {
     "node": ">=10.0.0"
   },
   "dependencies": {
-    "connect-mongo": "^3.1.2",
+    "connect-mongo": "^3.2.0",
     "express-session": "^1.17.0"
+  },
+  "optionalDependencies": {
+    "minimist": "^1.2.5"
   }
 }
